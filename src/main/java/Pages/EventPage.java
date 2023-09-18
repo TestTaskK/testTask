@@ -18,6 +18,4 @@ public class EventPage extends BasePage {
     public EventPage(WebDriver driver) {
         super(driver);
     }
-
-
 }

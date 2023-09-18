@@ -20,7 +20,7 @@ import Pages.EventsPage;
 import Pages.SettingsPage;
 
 public class TimeZoneTest {
-    LiveScoreDriver driver;
+    private LiveScoreDriver driver;
 
     @BeforeClass
     public void init() {
@@ -93,7 +93,6 @@ public class TimeZoneTest {
 
     @AfterClass
     public void tearDown() {
-
         driver.quit();
     }
 }

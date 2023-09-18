@@ -21,7 +21,7 @@ public abstract class BasePage {
     @FindBy(id = "burger-menu__settings")
     private WebElement burgerMenuSettings;
 
-    BasePage(WebDriver driver) {
+    public BasePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

@@ -54,6 +54,4 @@ public interface WaitUtils extends WebDriver {
 
         return null;
     }
-
-
 }
